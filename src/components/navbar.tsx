@@ -16,9 +16,9 @@ function Navbar() {
     <a className="text-[#4A3C31] hover:text-[#2F2A25] font-normal font-[inter]" href="#">Blends</a>
     <a className="bg-[#3E2723] text-white font-semibold font-[inter] flex items-center h-12 px-5 rounded-full" href="#">Contact Us</a>
   </div>
-  <button className='md:hidden'
+  <button className='md:hidden transition'
     onClick={()=> setOpen(!open)}>
-    {open ? <AlignJustify size={30}/> : <AlignJustify size={28}/>}
+    {open ? <AlignJustify size={35}/> : <AlignJustify size={28}/>}
   </button>
   {open&& (
     <div className='absolute top-16 left-0 w-full bg-[#E5CFB5] p-5'>
@@ -26,7 +26,7 @@ function Navbar() {
       <a className=" font-[inter] text-[#4A3C31] hover:text-[#2F2A25] font-semibold block" href="#">About</a>
       <a className=" font-[inter] text-[#4A3C31] hover:text-[#2F2A25] font-semibold block" href="#">Signatures</a>
       <a className=" font-[inter] text-[#4A3C31] hover:text-[#2F2A25] font-semibold block" href="#">Blends</a>
-      <a className=" font-[inter] text-[#4A3C31] hover:text-[#2F2A25] font-semibold block" href="#">Contact</a>
+      <a className=" font-[inter] text-[#4A3C31] hover:text-[#2F2A25] font-semibold block" href="#">Contact Us</a>
     </div>
   )}
 </nav>
