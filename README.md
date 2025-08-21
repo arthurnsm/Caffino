@@ -1,3 +1,5 @@
+![Caffino](src/assets/images/background.png)
+
 <h1 href="#top" align="center">☕Caffino</h1>
 <p align="center">
   <a href="#dart-about">Sobre</a> &#xa0; | &#xa0; &#xa0;
