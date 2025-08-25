@@ -1,12 +1,14 @@
 import Navbar from './components/navbar';
 import Hero from './components/hero'
 import About from './components/about';
+import Signature from './components/signatures';
 function Home() {
   return(
-    <div className="flex flex-col gap-4 bg-[#E5CFB5]">
+    <div className="flex flex-col bg-[#ffffff]">
     <Navbar />
       <Hero />
       <About />
+      <Signature/>
     </div>
 
   

@@ -4,7 +4,7 @@ import { MoveLeft, Coffee, Heart } from 'lucide-react';
 
 function Hero() {
     return (
-        <div className="relative bg-[#E5CFB5] flex flex-col md:flex-row justify-around md:gap-8 gap-10 overflow-hidden">
+        <div className="relative bg-[#E5CFB5] md:p-2 flex flex-col md:flex-row justify-around md:gap-8 p-8 gap-10 overflow-hidden">
 
             <div className="flex flex-col md:p-0 pt-4 justify-center">
 
