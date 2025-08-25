@@ -13,7 +13,7 @@ function Signature(){
                 <Card title="Americano" image={Americano} price="$3.50"/>
                 <Card title="Cappucino" image={Cappucino} price="$4.50"/>
                 <Card title="Espresso" image={Espresso} price="$2.50"/>
-                <Card title="Coffe Milk" image={CoffeMilk} price="$3.50"/>
+                <Card title="Coffe Milk" image={CoffeMilk} price="$4.00"/>
             </div>
         </section>
     )
