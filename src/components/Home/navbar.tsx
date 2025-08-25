@@ -1,4 +1,4 @@
-import Logo from '../assets/images/logo.png';
+import Logo from '../../assets/images/logo.png';
 import { AlignJustify } from 'lucide-react';
 import { useState } from 'react';
 function Navbar() {

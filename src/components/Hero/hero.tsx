@@ -1,4 +1,4 @@
-import Coffe from '../assets/images/coffe.png'
+import Coffe from '../..//assets/images/coffe.png'
 import InfoCards from './infocards';
 import { MoveLeft, Coffee, Heart } from 'lucide-react';
 

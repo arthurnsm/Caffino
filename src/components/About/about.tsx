@@ -1,4 +1,4 @@
-import Video from '../assets/images/Video.png'
+import Video from '../../assets/images/Video.png'
 import Highlight from './highlight';
 import { Coffee } from 'lucide-react';
 function About(){

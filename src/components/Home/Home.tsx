@@ -1,7 +1,7 @@
-import Navbar from './components/navbar';
-import Hero from './components/hero'
-import About from './components/about';
-import Signature from './components/signatures';
+import Navbar from './navbar';
+import Hero from '../Hero/hero'
+import About from '../About/about';
+import Signature from '../Signatures/signatures';
 function Home() {
   return(
     <div className="flex flex-col bg-[#ffffff]">

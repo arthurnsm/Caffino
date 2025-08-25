@@ -1,8 +1,8 @@
 import Card from './card'
-import Americano from '../assets/images/americano.png'
-import CoffeMilk from '../assets/images/coffe-milk.png'
-import Cappucino from '../assets/images/cappucino.png'
-import Espresso from '../assets/images/espresso.png'
+import Americano from '../../assets/images/americano.png'
+import CoffeMilk from '../../assets/images/coffe-milk.png'
+import Cappucino from '../../assets/images/cappucino.png'
+import Espresso from '../../assets/images/espresso.png'
 
 function Signature(){
     return(
