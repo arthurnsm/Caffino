@@ -9,14 +9,14 @@ function Social(){
             <div className="flex flex-col">
                 <h1 className="font-[lexend] text-center text-[#3E2723] font-bold text-3xl">Follow us on Instagram</h1>
                 <h1 className="font-[lexend] mt-4 text-center font-light text-xl text-[#626262]">Stay connected with us for the latest updates, promotions, and a behind-<br/>the-scenes look at our coffee creations.</h1>
-                <div className='flex flex-row w-full mt-12'>
+                <div className='flex flex-col md:flex-row w-full mt-12'>
                     <img className='w-200' src={Image1}/>
                     <img className='w-200' src={Image2}/>
                     <img className='w-200' src={Image3}/>
                     <img className='w-200' src={Image4}/>
                 </div>
-                <div className='mt-12 flex justify-center'>    
-                    <button className='bg-[#3E2723] rounded-full font-[lexend] text-white h-18 w-40'> Follow Us</button>
+                <div className='p-12 flex justify-center'>    
+                    <button className='hover: cursor-pointer hover:scale-105 bg-[#3E2723] rounded-full font-[lexend] text-white h-18 w-40'> Follow Us</button>
                 </div>
             </div>
 
