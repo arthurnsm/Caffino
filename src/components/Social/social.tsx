@@ -16,7 +16,7 @@ function Social(){
                     <img className='w-200' src={Image4}/>
                 </div>
                 <div className='p-12 flex justify-center'>    
-                    <button className='hover: cursor-pointer hover:scale-105 bg-[#3E2723] rounded-full font-[lexend] text-white h-18 w-40'> Follow Us</button>
+                    <button className='hover: cursor-pointer hover:scale-105 bg-[#3E2723] rounded-full font-[lexend] transition text-white h-18 w-40'> Follow Us</button>
                 </div>
             </div>
 

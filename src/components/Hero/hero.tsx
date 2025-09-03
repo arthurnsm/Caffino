@@ -4,9 +4,9 @@ import { MoveLeft, Coffee, Heart } from 'lucide-react';
 
 function Hero() {
     return (
-        <div className="relative bg-[#E5CFB5]   flex flex-col md:flex-row justify-around md:gap-8 md:p-4 pt-10 p-4  overflow-hidden">
+        <div className="relative bg-[#E5CFB5]  flex flex-col md:flex-row justify-around md:gap-8 md:p-4 p-2   overflow-hidden">
 
-            <div className="flex flex-col md:p-0 md:gap-4 gap-8 pt-4 justify-center">
+            <div className="flex flex-col md:p-0 md:gap-4 gap-6 pt-8 justify-center">
 
                 <h1 className="text-[#4A3C31] font-semibold md:text-6xl text-5xl text-center font-[lexend] md:text-left">
                     A cozy place to enjoy <br /> your coffee
@@ -20,7 +20,7 @@ function Hero() {
                     <img className="w-60 md:w-52" src={Coffe} alt="Coffe" />
                 </div>
 
-                <div className='justify-center md:justify-start flex flex-row gap-6 mt-4'>
+                <div className='justify-center md:justify-start flex flex-row gap-6 mt-2 md:mt-4'>
                     <button className="flex bg-[#4A3C31] text-white py-4 px-4 rounded-full transition hover:scale-110 hover:cursor-pointer">
                         View Menu
                         <MoveLeft size={28} className='ml-2 -scale-x-100' />
